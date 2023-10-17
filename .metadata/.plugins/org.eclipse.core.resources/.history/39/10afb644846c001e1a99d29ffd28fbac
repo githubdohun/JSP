@@ -1,0 +1,9 @@
+package com.test.servlet;
+
+import javax.servlet.http.HttpServlet;
+
+public class Hi extends HttpServlet { //1.
+	
+	public void doget(HttpServletRequest req, HttpServletResponse resp)
+	
+}

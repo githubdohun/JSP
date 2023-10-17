@@ -1,0 +1,7 @@
+
+10월 17, 2023 09:50:30.148 NEW SESSION
+10월 17, 2023 09:50:30.149 [3372:9420:1017/095030.146:ERROR:device_event_log_impl.cc(225)] [09:50:30.146] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+10월 17, 2023 09:50:30.164 [3372:9420:1017/095030.164:ERROR:device_event_log_impl.cc(225)] [09:50:30.164] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+
+10월 17, 2023 16:02:48.779 NEW SESSION
+10월 17, 2023 16:02:48.779 [29080:31336:1017/160248.776:ERROR:device_event_log_impl.cc(225)] [16:02:48.776] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
