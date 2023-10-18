@@ -22,6 +22,8 @@
 	//다중 텍스트
 	String txt3 = request.getParameter("txt3");
 	
+	if (txt3 == null) txt3 = "";
+	
 	txt3 = txt3.replace("\r\n","<br>");
 	
 	//체크 박스
@@ -63,7 +65,28 @@
 	//라디오 버튼
 	String rb = request.getParameter("rb");
 	
+	//셀렉트 박스
+	String sel1 = request.getParameter("sel1");
 	
+	
+	//다중 셀렉트 박스
+	String[] sel2 = request.getParameterValues("sel2");
+	
+	//히든 태그
+	String txt4 = request.getParameter("txt4");
+	
+	String count = request.getParameter("count");
+	
+	String regdate = request.getParameter("regdate");
+	
+	String min = request.getParameter("min");
+	
+	String color = request.getParameter("color");
+	
+	
+	
+	String id = request.getParameter("id");
+	String pw = request.getParameter("pw");
 
 %>
 <!DOCTYPE html>
@@ -73,7 +96,11 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="http://pinnpublic.dothome.co.kr/cdn/example-min.css">
 <style>
-
+	
+	body {
+		padding
+	}
+	
 </style>
 </head>
 <body>
@@ -103,8 +130,32 @@
 	<h2>라디오 버튼</h2>
 	<div><%= rb %></div>
 	
+	<h2>셀렉트 박스</h2>
+	<div><%= sel1 %></div>
 	
+	<h2>셀렉트 박스</h2>
+	<div><%= Arrays.toString(sel2) %></div>
+	
+	<h2>히든 태그</h2>
+	<div><%= txt4 %></div>
+	
+	<h2>히든 태그</h2>
+	<div><%= count %>번 클릭!</div>
 	 
+	<h2>날짜</h2>
+	<div><%= regdate %></div>
+	
+	<h2>범위</h2>
+	<div><%= min %></div>
+	
+	<!-- #8c2c2c -->
+	<h2>색상</h2>
+	<div style="background-color: <%= color %>;"><%= color %></div>
+	
+	<h2>아이디, 암호</h2>
+	<div><%= id %>, <%= pw %></div>
+	
+	
 	
 	
 	

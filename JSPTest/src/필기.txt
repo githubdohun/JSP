@@ -116,11 +116,29 @@ request 객체
 	
 	- "ex08.jsp" > 모든 입력 컨트롤 테스트(송수신)
 	- "ex08_ok.jsp"
-
+	
+	- "ex09.jsp"
+	- "ex09_ok.jsp"
+	
 2. 클라이언트에서 서버로 전송한 데이터 인코딩 처리
 
 3. 클라이언트에서 서버로 전동할 때의 여러가지 관련 정보를 가져오기
-- 
+	- "ex10_request.jsp" 
+	
+
+
+
+response 객체
+- HttpServletResponse
+
+1. 서버에서 클라이언트로 돌려주는 HTML 페이지 제작
+	- response.getWriter() > PrintWriter > HTML 제작
+	
+2. 서버에서 클라이언트로 돌려주는 HTML 페이지 인코딩
+
+3. 서버에서 클라이언트로 돌려주는 HTML 페이지 MIME 설정
+
+4. 페이지 이동하기
 
 
 
