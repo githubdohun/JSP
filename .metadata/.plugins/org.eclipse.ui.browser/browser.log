@@ -11,3 +11,10 @@
 10월 18, 2023 09:34:07.534 [31556:6732:1018/093407.533:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
 10월 18, 2023 09:34:07.544 [31556:6732:1018/093407.543:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
 10월 18, 2023 09:34:07.545 [31556:6732:1018/093407.543:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 18, 2023 13:51:03.970 [31556:20032:1018/135103.969:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+10월 18, 2023 14:03:23.484 [31556:6732:1018/140323.483:ERROR:device_event_log_impl.cc(225)] [14:03:23.482] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+10월 18, 2023 15:01:45.341 [31556:6732:1018/150145.340:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 18, 2023 15:31:47.368 [31556:20032:1018/153147.368:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+10월 18, 2023 15:32:12.38 [31556:20032:1018/153212.038:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+10월 18, 2023 15:33:01.470 [31556:20032:1018/153301.470:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+10월 18, 2023 16:04:26.630 [31556:6732:1018/160426.630:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost

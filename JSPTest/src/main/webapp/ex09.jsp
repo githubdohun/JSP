@@ -44,38 +44,6 @@
 			<th>버튼 개수(ea)</th>
 			<td><input type="number" name="ea" min="1" max="20" value="1"></td>
 		</tr>
-		<tr>
-			<th></th>
-			<td></td>
-		</tr>
-		<tr>
-			<th></th>
-			<td></td>
-		</tr>
-		<tr>
-			<th></th>
-			<td></td>
-		</tr>
-		<tr>
-			<th></th>
-			<td></td>
-		</tr>
-		<tr>
-			<th></th>
-			<td></td>
-		</tr>
-		<tr>
-			<th></th>
-			<td></td>
-		</tr>
-		<tr>
-			<th></th>
-			<td></td>
-		</tr>
-		<tr>
-			<th></th>
-			<td></td>
-		</tr>
 	</table>
 	<div>
 		<input type="submit" value="만들기">
