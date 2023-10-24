@@ -56,5 +56,9 @@
 		- com.test.memo.dao
 		
 		- com.test.memo.model > MemoDTO.java
+		- com
+		
+	- JSTL
+	
 		
 	

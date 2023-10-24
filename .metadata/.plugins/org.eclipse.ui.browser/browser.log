@@ -23,3 +23,19 @@
 10월 23, 2023 12:49:00.643 [15192:21360:1023/124900.639:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
 10월 23, 2023 13:56:10.947 [15192:17988:1023/135610.946:ERROR:device_event_log_impl.cc(225)] [13:56:10.946] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
 10월 23, 2023 13:56:25.588 [15192:17988:1023/135625.588:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+
+10월 24, 2023 09:05:25.383 NEW SESSION
+10월 24, 2023 09:05:25.383 [24984:15720:1024/090525.381:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 24, 2023 12:07:29.786 [24984:15720:1024/120729.785:ERROR:device_event_log_impl.cc(225)] [12:07:29.785] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+10월 24, 2023 12:45:31.796 [24984:15720:1024/124531.795:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+10월 24, 2023 12:45:57.972 [24984:15720:1024/124557.972:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+10월 24, 2023 12:48:25.244 [24984:15720:1024/124825.244:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+10월 24, 2023 12:48:34.906 [24984:17556:1024/124834.906:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+10월 24, 2023 13:59:59.540 [24984:17556:1024/135959.540:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+10월 24, 2023 14:00:03.700 [24984:15720:1024/140003.699:ERROR:device_event_log_impl.cc(225)] [14:00:03.700] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+10월 24, 2023 14:00:05.16 [24984:17556:1024/140005.016:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10월 24, 2023 14:00:05.19 [24984:9524:1024/140005.018:ERROR:get_updates_processor.cc(261)] PostClientToServerMessage() failed during GetUpdates with error 2
+10월 24, 2023 14:00:08.112 [24984:17556:1024/140008.112:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10월 24, 2023 14:00:08.121 [24984:22384:1024/140008.121:ERROR:get_updates_processor.cc(261)] PostClientToServerMessage() failed during GetUpdates with error 2
+10월 24, 2023 14:00:12.972 [24984:17556:1024/140012.972:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10월 24, 2023 14:00:12.972 [24984:26312:1024/140012.972:ERROR:get_updates_processor.cc(261)] PostClientToServerMessage() failed during GetUpdates with error 2
