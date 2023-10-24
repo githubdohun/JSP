@@ -23,7 +23,7 @@ public class Ex05_CallableStatement {
 		
 		Connection conn = null;
 		CallableStatement stat = null;
-		ResultSet rs = null;                                                                                                                                                                                                                           ehdgn
+		ResultSet rs = null;                                                                                                                                                                                                                           
 		
 		try {
 			
