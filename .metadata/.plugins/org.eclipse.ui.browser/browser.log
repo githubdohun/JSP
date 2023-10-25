@@ -39,3 +39,6 @@
 10월 24, 2023 14:00:08.121 [24984:22384:1024/140008.121:ERROR:get_updates_processor.cc(261)] PostClientToServerMessage() failed during GetUpdates with error 2
 10월 24, 2023 14:00:12.972 [24984:17556:1024/140012.972:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
 10월 24, 2023 14:00:12.972 [24984:26312:1024/140012.972:ERROR:get_updates_processor.cc(261)] PostClientToServerMessage() failed during GetUpdates with error 2
+
+10월 25, 2023 09:18:55.672 NEW SESSION
+10월 25, 2023 09:18:55.672 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.

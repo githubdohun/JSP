@@ -1,9 +1,0 @@
-package com.test.servlet;
-
-import javax.servlet.http.HttpServlet;
-
-public class Ex02_Send extends HttpServlet{
-		
-	
-	
-}

@@ -1,0 +1,52 @@
+새 프로젝트 
+- New > Dynamic Web Project > "AjaxTest" > Next > Next > Context root: "ajax" > Generate.web.xml 체크(O) > Finish
+
+	com.test.ajax 패키지 생성
+	com.test.ajax.controller
+	com.test.ajax.repository
+	com.test.ajax.model
+	WEB-INF > views 폴더 생성
+	
+	WEB-INF > lib > jstl-1.2.jar
+				  > ojdbc6.jar
+				  > lombok.jar
+				  > json
+				  
+
+Ajax, Asynchronous JavaScript and XML
+- 자바스크립트 기술
+- 비동기 방식으로 자바스크립트를 사용해서 서버와 데이터를 통신하는 기술(XML 형식으로 주고 받음)
+
+
+- com.test.controller > Ex01.java
+					  > Ex01Data.java
+- com.test.ajax.repository > AjaxDAO.java
+- views > ex01.jsp
+		> ex01data.jsp
+		
+
+- com.test.controller > Ex02.java
+					  > Ex02Data.java
+- views > ex02.jsp
+		> ex02data.jsp
+		
+		
+- com.test.controller > Ex03.java
+					  > Ex03Data.java
+- views > ex03.jsp
+		> ex03data.jsp
+		
+		
+- com.test.controller > Ex04.java
+					  > Ex04Data.java
+- views > ex04.jsp
+
+
+ 
+
+
+
+
+	
+	
+	

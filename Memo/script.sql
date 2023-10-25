@@ -31,5 +31,7 @@ delete from tblMemo where seq = 1;
 
 commit;
 
+select * from tblMemo;
+
 
 
