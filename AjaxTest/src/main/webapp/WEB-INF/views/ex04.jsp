@@ -8,6 +8,10 @@
 <link rel="stylesheet" href="http://pinnpublic.dothome.co.kr/cdn/example-min.css">
 <style>
 
+	div > input {
+		margin-bottom: 15px;
+	}
+	
 </style>
 </head>
 <body>
@@ -38,9 +42,69 @@
 		
 		$('#btn1').click(function() {
 			
+			$.ajax({
+				type: 'GET',
+				url: '/ajax/ex04data.do',
+				
+				//data: 'type=1', //무난
+				data: 'type=2', //비권장
+				
+				//돌려받을 데이터 형식(text, xml, json)
+				dataType: 'text',
+				
+				success: function(result) {
+					
+					//$('#result1').text(result);
+					
+					const list = result.split('\r\n');
+					
+					list.forEach(memo => {
+						//alert(memo);
+						
+						const item = memo.split(',');
+						
+						$('#result1').append('<div>' + item[0] + '</div>');
+						$('#result1').append('<div>' + item[1] + '</div>');
+						$('#result1').append('<div>' + item[2] + '</div>');
+						$('#result1').append('<br>');
+						
+					});
+					
+				},
+				
+				error: function(a,b,c) {
+					console.log(a,b,c)
+				}
+				
+			});
+			
 		});
 		
 		$('#btn2').click(function() {
+			
+			//단일값
+			//다중값
+			
+			$.ajax({
+				type: 'GET',
+				url: '/ajax/ex04data.do',
+				data: 'type=3',
+				dataType: 'xml',
+				success: function(result) {
+					
+					//alert($(result).find('name').text());
+					
+					$('#result2').append('<div>번호: ' + $(result).find('seq').text() + '</div>')
+					$('#result2').append('<div>이름: ' + $(result).find('name').text() + '</div>')
+					$('#result2').append('<div>암호: ' + $(result).find('pw').text() + '</div>')
+					$('#result2').append('<div>메모: ' + $(result).find('memo').text() + '</div>')
+					$('#result2').append('<div>날짜: ' + $(result).find('regdate').text() + '</div>')
+					
+				},
+				error: function(a,b,c) {
+					console.log(a,b,c);
+				}
+			});
 			
 		});
 		

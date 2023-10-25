@@ -33,5 +33,7 @@ commit;
 
 select * from tblMemo;
 
+commit;
+
 
 

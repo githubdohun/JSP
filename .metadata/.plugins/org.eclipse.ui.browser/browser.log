@@ -42,3 +42,15 @@
 
 10월 25, 2023 09:18:55.672 NEW SESSION
 10월 25, 2023 09:18:55.672 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 25, 2023 12:47:07.361 [20348:13636:1025/124707.361:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+10월 25, 2023 14:04:18.450 [20348:13636:1025/140418.449:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+10월 25, 2023 14:04:23.852 [20348:13636:1025/140423.416:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10월 25, 2023 14:04:23.853 [20348:21336:1025/140423.418:ERROR:get_updates_processor.cc(261)] PostClientToServerMessage() failed during GetUpdates with error 2
+10월 25, 2023 14:04:24.184 [20348:13636:1025/140423.548:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10월 25, 2023 14:04:24.185 [20348:21788:1025/140423.549:ERROR:get_updates_processor.cc(261)] PostClientToServerMessage() failed during GetUpdates with error 2
+10월 25, 2023 14:05:08.684 [20348:21904:1025/140508.683:ERROR:device_event_log_impl.cc(225)] [14:05:08.683] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+10월 25, 2023 15:29:21.678 [20348:21904:1025/152921.677:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 25, 2023 16:01:14.537 [20348:13636:1025/160114.536:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+10월 25, 2023 16:31:09.124 [20348:13636:1025/163109.124:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+10월 25, 2023 16:32:20.644 [20348:13636:1025/163220.643:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+10월 25, 2023 16:50:24.600 [20348:21904:1025/165024.600:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
